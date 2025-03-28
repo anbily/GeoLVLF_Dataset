@@ -27,7 +27,7 @@ Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision GIN
 ```bash
 /Root
 ├─DJI_01_Afternoon_150m
-│  ├─Frame_Cut       # Cut frames from Raw Video.mp4 
+│  ├─Frame_Cut       # Cut frames from raw Video.mp4 
 │  ├─Ref             # Reference trajectory data
 │  └─Video           # Raw video files
 ├─DJI_02_Afternoon_250m
