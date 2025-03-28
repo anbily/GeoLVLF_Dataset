@@ -56,5 +56,5 @@ Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision GIN
 ---
 
 ### Usage Notice  
-⚠️ **This dataset is intended for academic and research purposes only. Commercial use, redistribution, or modification for profit is strictly prohibited.**  
+⚠️ **This dataset may only be used for scholarly investigation and academic research. Commercial exploitation, dissemination, or monetization through modification is prohibited.**  
 
