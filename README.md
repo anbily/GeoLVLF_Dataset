@@ -16,7 +16,7 @@ Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision GIN
 - **Video Spec**: 1080p@30Hz nadir imagery  
 - **Key Measurements**:
   - Latitude/Longitude: The WGS84 geographic location of UAV (Deg).
-  - Altitude/Relative HElGHT: The absolute altitude and fusion height relative to the ground (m).
+  - Altitude/Relative Height: The absolute altitude and fusion height relative to the ground (m).
   - Drone Speed: The 3D flight speeds of UAV in the geographic coordinate system (m/s).  
   - Drone Attitude: The 3D attitude of UAV in the geographic coordinate system (Deg).
   - Gimbal Camera Attitude: The 3D attitude of drone gimbal camera in the geographicordinate system (Deg).
