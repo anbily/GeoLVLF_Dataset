@@ -25,7 +25,7 @@ Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision SIN
 ---
 
 ## 2. File Structure
-
+```bash
 /Root
 ├─DJI_01_Afternoon_150m
 │  ├─Frame_Cut       # 3s-interval frames from Video.mp4 (start at 2s)
@@ -44,7 +44,7 @@ Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision SIN
 │  ├─Ref
 │  └─Video
 └─Map                # Satellite map & platform photos
-
+```
 
 ## 3. Download Links
 
