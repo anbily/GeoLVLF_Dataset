@@ -11,24 +11,23 @@
 ---
 
 ## 1. Introduction
-Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision SINS positioning system.  
+Experimental platform: **DJI Matrice 300 RTK** quadrotor with high-precision GINS positioning system.  
 - **Sensor**: Zenmuse H20 wide-angle gimbal camera  
 - **Video Spec**: 1080p@30Hz nadir imagery  
 - **Key Measurements**:
-  - LATITUDE/LONGITUDE: The WGs84 geographic location of UAV (°).
-  - ALTITUDE/REL HElGHT: The absolute altitude and fusion height relative to the ground (m).
-  - DRONE SPEED: The 3D flight speeds of UAV in the geographic coordinate system (m/s).  
-  - DRONE ATTITUDE: The 3D attitude of UAV in the geographic coordinate system (°).
-  - GIMBAL CAM ATTITUDE: The 3D attitude of drone gimbal camera in the geographicordinate system (°).
-  - GIMBAL CAM ATTITUDE: The 3D attitude of drone gimbal camera in the geographicordinate system (°).
-  - DISTANCE: The flight distance relative to the UAV start position (m).
+  - Latitude/Longitude: The WGS84 geographic location of UAV (Deg).
+  - Altitude/Relative HElGHT: The absolute altitude and fusion height relative to the ground (m).
+  - Drone Speed: The 3D flight speeds of UAV in the geographic coordinate system (m/s).  
+  - Drone Attitude: The 3D attitude of UAV in the geographic coordinate system (Deg).
+  - Gimbal Camera Attitude: The 3D attitude of drone gimbal camera in the geographicordinate system (Deg).
+  - Distance: The flight distance relative to the UAV start position (m).
 ---
 
 ## 2. File Structure
 ```bash
 /Root
 ├─DJI_01_Afternoon_150m
-│  ├─Frame_Cut       # 3s-interval frames from Video.mp4 (start at 2s)
+│  ├─Frame_Cut       # Cut frames from Raw Video.mp4 
 │  ├─Ref             # Reference trajectory data
 │  └─Video           # Raw video files
 ├─DJI_02_Afternoon_250m
